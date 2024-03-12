@@ -1,4 +1,4 @@
-package com.kchrzanowski.userauth.controller
+package com.kchrzanowski.userauth.controller.article
 
 import com.kchrzanowski.userauth.controller.article.ArticleResponse
 import com.kchrzanowski.userauth.service.ArticleService
