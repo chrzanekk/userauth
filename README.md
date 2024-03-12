@@ -5,4 +5,4 @@ Sample project for user auth using JWT with Kotlin and Spring Boot
 - Java 17
 
 Now building basic skeleton of simple app to extend it in future for new features and elements + tests 
-as simmilar as should be in real app
+as similar as should be in real app
