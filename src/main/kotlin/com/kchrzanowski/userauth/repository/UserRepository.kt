@@ -14,9 +14,9 @@ class UserRepository(
 ) {
 
     private val users = mutableListOf(
-            User(id = UUID.randomUUID(), "email1@1emai.com", encoder.encode("pass1"), Role.USER),
-            User(id = UUID.randomUUID(), "email2@1emai.com", encoder.encode("pass2"), Role.ADMIN),
-            User(id = UUID.randomUUID(), "email3@1emai.com", encoder.encode("pass3"), Role.USER),
+            User(id = UUID.randomUUID(), "email1@1email.com", encoder.encode("pass1"), Role.USER),
+            User(id = UUID.randomUUID(), "email2@1email.com", encoder.encode("pass2"), Role.ADMIN),
+            User(id = UUID.randomUUID(), "email3@1email.com", encoder.encode("pass3"), Role.USER),
     )
 
     fun save(user: User): Boolean {
