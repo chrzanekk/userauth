@@ -28,6 +28,7 @@ class JwtAuthenticationFilter(
 
         if (authHeader.doesNotContainBearerToken()) {
             filterChain.doFilter(request, response)
+            return
         }
 
         val jwtToken = authHeader!!.extractTokenValue()
